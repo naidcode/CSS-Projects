@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background-color: black; */
+}
+
+.cantainer {
+  height: 60vh;
+  width: 50%;
+  background: url(images/back.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 100px auto;
+  position: relative;
+  border-radius: 22px;
+}
+
+.nav {
+  background: rgba(255, 255, 255, 0.1);
+  height: 40vh;
+  width: 320px;
+  margin: auto;
+  position: relative;
+  top: 50px;
+  border-radius: 22px;
+}
+ .profile{
+    margin: 20px 0px 10px 120px ;
+}
+.nav h3{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin: 5px 0px 10px 100px;
+}
+.nav p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 0px 0px 0px 73px;
+}
+.nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+}
+li {
+    list-style: none;
+    padding: 10px;
+}
+button{
+    height: 35px;
+    width: 100px;
+    border-radius: 22px;
+    margin: 6px 105px;
+    border: none;
+}
+button:hover{
+background-color: aliceblue;
+}
+
+@media (min-width: 481px) and (max-width: 576px) {
+    .cantainer {
+  height: 55vh;
+  width: 70%;
+  background: url(images/back.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 100px auto;
+  position: relative;
+  border-radius: 22px;
+}
+  .nav {
+  background: rgba(255, 255, 255, 0.1);
+  height: 40vh;
+  width: 240px;
+  margin: auto;
+  position: relative;
+  top: 50px;
+  border-radius: 22px;
+}
+ .profile{
+    height: 60px;
+    margin: 20px 0px 10px 95px ;
+}
+.nav h3{
+    font-size: 14px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin: 5px 0px 10px 81px;
+}
+.nav p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    padding: 0px 0px 0px 50px;
+}
+.nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+}
+li {
+    list-style: none;
+    padding: 10px;
+}
+button{
+    height: 35px;
+    width: 100px;
+    border-radius: 22px;
+    margin: 6px 63px;
+    border: none;
+}
+button:hover{
+background-color: aliceblue;
+}
+}
