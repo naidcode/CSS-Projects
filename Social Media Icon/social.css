@@ -41,7 +41,7 @@ a {
   color: rgb(138, 138, 138);
   box-shadow: 1px 3px 10px rgb(176, 176, 176);
   border-radius: 12px;
-  transition: transform 600ms;
+  transition: transform 200ms;
 }
 a:hover {
   transform: translatey(-10px);
