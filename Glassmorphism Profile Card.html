@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Glassmorphism Profile Card</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    .cantainer{
+      height: 100vh;
+      width: 100%;
+      background-color: rgb(89, 159, 130);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .card{
+      height: 50vh;
+      width:20% ;
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      border-radius: 12px;
+    }
+    .profile{
+      margin:50px 0px 0px 125px;
+    }
+    .card h1{
+      font-size: 22px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 700;
+      word-spacing: 1px;
+      text-align: center;
+      padding: 10px;
+    }
+    .card p{
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 12px;
+      font-weight: 400;
+      text-align: center;
+      padding: 0px;
+      color:rgb(227, 222, 222);
+    }
+    .icons{
+      margin: 30px;
+    }
+    button{
+      font-size: 20px;
+      padding: 0.6em 1.5em;
+      border-radius: 50px;
+      border: none;
+      font-weight: 400;
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0px 90px;
+    }
+    button:hover{
+      background-color: black;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <div class="cantainer">
+    <div class="card">
+      <img class="profile" src="/images/profile.png" height="60px" alt="">
+      <h1>Nahid Pasha</h1>
+      <p>Hi,i'm a Full Stack Web Developer</p>
+      <img class="icons" src="images/github.png" height="40px" alt="">
+      <img class="icons" src="images/linkedin.png" height="40px" alt="">
+      <img class="icons" src="images/twitter.png" height="40px" alt=""><br>
+      <button>Follow</button>
+
+    </div>
+  </div>
+</body>
+</html>
