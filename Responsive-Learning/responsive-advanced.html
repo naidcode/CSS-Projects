@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive</title>
+  <style>
+    body{
+      display: flex;
+      margin: 0;
+    }
+    .grid{
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(auto-fit , minmax(100px , 1fr));
+      gap: 1rem;
+      grid-auto-rows: 500px;
+      grid-auto-columns: 250px;
+    }
+    .box{
+      background-color: purple;
+    }
+  </style>
+</head>
+<body>
+  <div class="grid">
+    <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    
+
+
+  </div>
+</body>
+</html>
