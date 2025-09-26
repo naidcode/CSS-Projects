@@ -11,6 +11,14 @@
       box-sizing: border-box;
     }
 
+    html{
+      font-size:16px;
+    }
+        /* em size works what is body size */
+    body{
+      font-size: 16px;
+    }
+
     .header{
       width: 100%;
       height: 120px;
@@ -18,7 +26,8 @@
       color: white ;
       font-family: Arial, Helvetica, sans-serif;text-align: center;
       padding-top: 40px;
-      font-size: clamp(0.9rem , 2vw , 1.7em);
+      /* font-size: clamp(0.9rem , 2vw , 1.7em); */
+      font-size: 1.5rem;
     }
     .article{
       width: 50%;
@@ -27,31 +36,23 @@
       margin:100px auto;
       /* border: 2px solid red; */
     }
-    .article h4{
+    .article h3{
       color: orange;
       width: 100%;
-      font-size:clamp(0.9rem , 2vw , 1.7em);
+      font-size:2rem;
       font-family: Arial, Helvetica, sans-serif;
       /* margin-left: 20px; */
     }
-
-    .article h5{
-      font-family: Arial, Helvetica, sans-serif;
-      font-size: clamp(0.6rem , 2vw , 1em);
-      width: 80%;
-      
+    ul{
+      font-size: 1.5rem;
     }
-    img{
-      width: 80%;
-    }
-
     .footer{
       width: 100%;
-      height: 35vh;
+      height: 50vh;
      background-color: rgb(74, 9, 74);
     }
     .footer h3{
-      font-size: 22px;
+      font-size: 2rem;
       font-family: Arial, Helvetica, sans-serif;
       font-weight: 500;
       text-align: left;
@@ -59,7 +60,8 @@
       color: orange;
     }
     .footer h5{
-      font-size: clamp(0.8rem , 2vw , 1em);
+      font-size: 1em;
+      /* font-size: clamp(0.8rem , 2vw , 1em); */
       width: 80%;
       text-align: left;
       padding: 10px;
@@ -80,9 +82,14 @@
     <h1>CSS is a lot of fun</h1>
   </div>
   <div class="article">
-    <h4>Section One Title</h4>
-    <img src="/images/1977620.jpg" alt="">
-    <h5>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt reiciendis sint quia magnam vero. Hic tempora placeat quia, ut molestias dolor atque velit voluptatem optio tenetur quam autem totam repellat.</h5>
+    <h3>Putting em to use</h3>
+    <ul>
+      <li>Home</li>
+      <li>Contact us</li>
+      <li>About us</li>
+      <li>Services</li>
+      <li>Portfolio</li>
+    </ul>
     </div>
     <div class="footer">
       <h3>Section two Title</h3>
