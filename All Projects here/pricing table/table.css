@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(204, 88, 107);
+    /* position: relative; */
+}
+.h33{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+    background-color:rgb(204, 88, 107);
+    position: relative;
+    top: 60px;
+
+}
+.cantainer{
+    /* height: 100vh; */
+    /* width: 100vw; */
+    background-color: rgb(204, 88, 107);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    flex: 1 0 auto;
+    padding: 120px;
+}
+.table{
+    height: 450px;
+    width: 300px;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    background-color: rgba(46, 45, 63, 0.8);
+    border-radius: 22px;
+}
+ .h44{
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    margin: 30px;
+}
+.amount{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.amount h2{
+    font-size: 35px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.amount p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 13px;
+    padding-top: 10px;
+}
+ul{
+   margin: 30px 0px 0px 50px;
+   
+}
+
+ul li{
+    color: white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    padding-top: 10px;
+}
+ul li::marker{
+    color:rgb(204, 88, 107);
+}
+
+button{
+    height: 48px;
+    width: 250px;
+    background-color: transparent;
+    border-radius: 4px;
+    border: 2.3px solid rgb(204, 88, 107);
+    margin: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+
+}
+button:hover{
+    
+    background-color:rgb(204, 88, 107);
+}
