@@ -5,9 +5,35 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Navigation</title>
   <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
+    body{
+      font-family: sans-serif;
+    }
+    h1{
+      font-family: serif;
+      font-weight: 400;
+      font-size: 2rem;
+      color:#143774;
+      margin: 0;
+    }
+
+    .subtitle{
+      font-weight: 700;
+      font-size: 0.85rem;
+      color:#1792d2;
+      padding: 0 0 1em 0;
+    }
     header{
       text-align: center;
+      padding: 2em 0;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
     }
     nav ul{
       padding: 0;
@@ -21,6 +47,20 @@
     }
 
     nav a{
+      text-decoration: none;
+      color: #707070;
+      font-weight: 700;
+    }
+
+    nav a:hover, 
+    nav a:focus {
+      color:#1792d2;
+    }
+
+    @media (max-width: 750px){
+      header{
+        flex-direction: column;
+      }
       
     }
   </style>
