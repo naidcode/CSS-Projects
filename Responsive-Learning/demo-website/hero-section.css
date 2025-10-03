@@ -1,0 +1,44 @@
+.main-cantainer{
+  width: 70%;
+  margin: 2em auto;
+  display: flex;
+  justify-content: center;
+}
+
+.main-post{
+  /* padding: 1em; */
+}
+.main-post-img{
+  width: 100%;
+  height: 30vh;
+ max-width: 670px;
+}
+.main-post-info{
+  color: #707070;
+  font-size: 0.875rem;
+  /* padding: 0.5em 0; */
+}
+.main-post-h1{
+  padding: 0.2em 0;
+}
+
+.main-post-para{
+  width: 87%;
+  color: #707070;
+  font-size: 1.125rem;
+  font-family: sans-serif;
+  padding: 0.7em 0;
+}
+.main-post-a{
+  color: #1792d2;
+  font-size: 0.875rem;
+  text-decoration: none;
+  font-family: serif;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  padding: 1em 0;
+}
+
+.recent-second-post{
+  display:flex;
+}
