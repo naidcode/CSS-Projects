@@ -3,6 +3,7 @@
   margin: 2em auto;
   display: flex;
   justify-content: center;
+  align-items: start;
 }
 
 .main-post{
@@ -15,8 +16,8 @@
 }
 .main-post-info{
   color: #707070;
-  font-size: 0.875rem;
-  /* padding: 0.5em 0; */
+  font-size: 0.785rem;
+  padding: 0.5em 0;
 }
 .main-post-h1{
   padding: 0.2em 0;
@@ -38,7 +39,119 @@
   letter-spacing: 0.5px;
   padding: 1em 0;
 }
+.underline1{
+  height: 2px;
+  width: 85%;
+  background-color: #c6c5c5;
+  margin: 0.9em 0;
+}
+
+/* recent-post */
 
 .recent-second-post{
+  max-width: 85%;
   display:flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.recent-second-post img{
+  max-width: 100%;
+  width: 310px;
+  min-width: none;
+  height: 200px;
+}
+.recent-post {
+  padding: 1.7em 0;
+
+} .recent-post-write{
+  padding: 1.7em 1em;
+
+}
+.recent-post-h1{
+  font-size: 1.3rem;
+}
+
+.recent-post-para{
+  width: 75%;
+  color: #707070;
+  font-size: 1rem;
+  padding: 1em 0;
+}
+
+.recent-post-info{
+  font-size: 0.650rem;
+  color: #707070;
+  padding: 0.3em 0 0 0;
+}
+
+/* widget-post */
+
+.side-article{
+  width: 240px;
+  height: 280px;
+  border: 17px solid #EBEBEB;
+}
+
+.side-article h2{
+  padding: 0.6em 1.01em;
+  font-size: 0.9rem;
+    letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #143774;
+  word-spacing: 1px;
+  font-weight: 700;
+  font-family: sans-serif;
+}
+
+.side-article img{
+  max-width: 100%;
+  padding: 0 1em;
+}
+
+.side-article p{
+  font-size: 0.85rem;
+  font-family: sans-serif;
+  color: #143774;
+  line-height: 1.4rem;
+  padding: 0 1.09em;
+}
+
+.side-article-recent {
+   width: 240px;
+  height: 790px;
+  border: 17px solid #EBEBEB;
+  margin: 1.2em 0;
+}
+.side-article-recent h2{
+ padding: 0.6em 1.01em;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #143774;
+  word-spacing: 1px;
+  font-weight: 700;
+  font-family: sans-serif;
+}
+
+.side-article-recent img{
+  max-width: 100%;
+  padding: 0.5em 1em;
+  /* margin: 0 0 0.5em 0; */
+}
+
+.side-article-recent p{
+  font-size: 0.85rem;
+  font-family: sans-serif;
+  color: #143774;
+  line-height: 1.4rem;
+  padding: 0 1.09em;
+  margin: 0 0 0.4em 0;
+}
+
+.underline{
+   height: 2px;
+  width: 90%;
+  background-color: #c6c5c5;
+  margin: 0.9em auto;
 }
