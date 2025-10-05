@@ -43,6 +43,7 @@
     }
 
     nav a{
+      font-size: clamp(0.9rem , 2vw,1.4rem);
       text-decoration: none;
       color: #707070;
       font-weight: 700;
@@ -53,7 +54,7 @@
       color:#1792d2;
     }
 
-    @media (max-width: 750px){
+    @media (max-width: 800px){
       header{
         flex-direction: column;
         height: 20%;
