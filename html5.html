@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <!-- *text, password, email, tel, url, search, number,
+*date, datetime-local, month, week, time,
+*checkbox, radio, range, color,
+*file, image,
+*button, submit, reset, hidden
+-->
+<label for="volume">Volume:</label>
+<input type="range" id="volume" name="volume" min="0" max="100" value="50">
+
+  <a hreflang="hello guys">hello guys </a>
+
+  <a href="tel:7975123456">Call us</a>
+  <a href="mailto:example@example.com">Send email</a>
+   <input type="text" size="50">   <!--size increase the size of input 59 means this input can show 50 letter on input -->
+
+   <input type="radio" name="color" id="red" value="#F00">
+<input type="radio" name="color" id="green" value="#0F0">   <!--inside the input we named input same because if we don not give him same name that will select every one-->
+<input type="radio" name="color" id="blue" value="#00F">
+
+<fieldset>
+  <legend>Theme color:</legend>
+  <p>
+    <input type="radio" name="color" id="red" value="#F00">
+    <label for="red">Red</label>
+  </p>
+  <p>
+    <input type="radio" name="color" id="green" value="#0F0">   <!--see the output so you can understand-->
+    <label for="green">Green</label>
+  </p>
+  <p>
+    <input type="radio" name="color" id="blue" value="#00F">      
+    <label for="blue">Blue</label>
+  </p>
+</fieldset>
+
+<input minlength="3">                  <!--you min or max the length of input-->
+<input maxlength="15">
+<input minlength="3" maxlength="15">
+
+<input pattern="\d*" title="Numbers only, please.">    <!--give alert message if anyone type alphabet-->
+
+<input type="file" accept="image/*" title="Only images are allowed">   
+<input type="file" accept="image/*,.rar,application/zip">              <!--both are select file input-->
+<input type="color" name="favcolor" value="#ff0000">   <!--color picker input-->
+
+<form action="upload_file.php" method="post" enctype="multipart/form-data">
+    Select file to upload:
+    <input type="file" name="fileSubmission" id="fileSubmission">
+    <input type="submit" value="Upload your file" name="submit">
+
+    <button type="button" onclick="alert('hello world!')">Click Me</button>  <!--button input-->
+    <button type="submit">
+  <img src="submit-icon.jpg" />submit</button>
+  <input type="tel" value="+8400000000">  <!--telephone input-->
+  <input type="reset" value="Reset">   <!--reset input-->
+
+  <form>
+  <label>E-mail: <label>
+  <input type="email" name="email"></form>  <!--email input-->
+  <input type="number" value="0" name="quantity">  <!--number quantity-->
+  <input type="time" >  <!--time clock input-->
+
+<label>
+    <input type="checkbox" name="Cats">  <!-- label is best -->
+    I like Cats </label>
+
+</form>
+<audio controls>
+<source id="player" src="song.mp3" type="audio/mpeg">
+</audio><input type="range" id="volume" min="0" max="1" step="0.01" value="0.5">   <!--volume short code -->
+
+<script>
+  const player = document.getElementById('player');
+  const volume = document.getElementById('volume');
+  volume.addEventListener('input', () => {
+    player.volume = volume.value;
+  });
+</script>
+
+
+</body>
+</html>
