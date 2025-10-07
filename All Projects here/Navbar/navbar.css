@@ -7,13 +7,13 @@ body{
     background-color:  rgb(16, 242, 238);
 }
 .cantainer{
-    height: 50vh;
+    height: 1000vh;
     width: 100%;
     background-color: rgb(16, 242, 238);
     border-radius: 22px;
-    margin:10rem auto;
-    padding-top: 100px;
-    position: relative;
+    margin:0 auto;
+    /* padding-top: 100px; */
+    /* position: relative; */
 }
 .nav ul {
     height: 80px;
@@ -21,11 +21,12 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: auto;
+    margin:0 auto;
     background-color: rgb(255, 255, 255);
     color: black;
     border-radius: 50px;
     box-shadow: 1px 3px 10px rgb(135, 135, 135);
+    position: sticky;
 
 }
 .nav li{
